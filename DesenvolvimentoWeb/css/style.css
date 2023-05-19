@@ -1,0 +1,53 @@
+body{
+    font-family: cursive;
+    background-color: antiquewhite;
+}
+
+.center{
+    text-align: center;
+}
+
+.tablecolor{
+    color: brown;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.b{
+    color: brown;
+}
+
+li{
+    border: 1px solid brown;
+    padding: 3px;
+}
+
+p{
+    font-size: 15px;
+    font-family: cursive;
+}
+
+a{
+    padding: 5px;
+}
+
+table{
+    border:3px solid brown;
+    border-radius: 8px;
+}
+
+#chapeu{
+    padding: 4px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.textTable{
+    text-align: center;
+    font-weight: bold;
+}
+#ref{
+    width: 500px;
+    height: 200px;
+    overflow: auto;
+}
