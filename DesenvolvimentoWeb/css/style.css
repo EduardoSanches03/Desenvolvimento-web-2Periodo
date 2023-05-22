@@ -19,7 +19,12 @@ body{
 
 li{
     border: 1px solid brown;
+    box-sizing: border-box;
     padding: 3px;
+}
+
+#li{
+    display: inline-block;
 }
 
 p{
@@ -46,8 +51,16 @@ table{
     text-align: center;
     font-weight: bold;
 }
-#ref{
+.ref{
     width: 500px;
     height: 200px;
     overflow: auto;
+}
+.tableCenter{
+    display: flex;
+    justify-content: center;
+}
+.center.b{
+    color: brown;
+    text-align: center;
 }
