@@ -13,6 +13,11 @@ body{
     font-size: 15px;
 }
 
+nav>a:hover{
+    font-size: 120%;
+    animation-duration: 200ms;
+}
+
 .b{
     color: brown;
 }
